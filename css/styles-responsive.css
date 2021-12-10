@@ -54,3 +54,59 @@
   /* Fin de Cafes*/
 
 }
+
+@media sc5reen and (max-width: 767px) {
+/*footer*/
+textarea{
+  width: 100%;
+}
+.footer, .contenedor {
+  display: block;
+}
+.footer img{
+  width: 250px;
+}
+
+.contacto{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.generos label{
+  font-size: 16px;
+}
+.intereses label{
+  display: block;
+  font-size: 16px;
+}
+.formulario{
+  display: block;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.formulario .button{
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.24);
+}
+.col1{
+  margin: 0;
+}
+
+/*selectores de atributo*/
+input[type="text"],
+input[type="gmail"]{
+  font-size: 16px;
+  padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+  position: relative;
+  top: 3px;
+  zoom: 1.5;
+}
+
+/* fin del footer */
+}
