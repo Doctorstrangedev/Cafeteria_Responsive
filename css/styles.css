@@ -13,6 +13,7 @@ body {
 main {
   flex: 1;
 }
+
 .button {
 
   border: none;
@@ -26,19 +27,22 @@ main {
   text-decoration: none;
   /* Arrancar de derecha y se va ir hacia la izquierda, colores degradado*/
   background: linear-gradient(to left, #8a4b0c, #dd944c);
- 
+
 }
+
 label {
   margin-top: 10px;
 }
 
-input, textarea {
+input,
+textarea {
   outline: 0;
   border-radius: 7px;
   border: 1px solid #835835;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   background: #fce3c3;
 }
 
@@ -48,7 +52,7 @@ input[type='radio']:checked:after {
   border-radius: 15px;
   position: relative;
   background-color: #836123;
-  content:''; 
+  content: '';
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
@@ -59,7 +63,7 @@ input[type='checkbox']:checked:after {
   height: 10px;
   position: relative;
   background-color: #977639;
-  content:'';
+  content: '';
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
@@ -81,7 +85,7 @@ input[type='checkbox']:checked:after {
 }
 
 .titulo {
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
   font-size: 70px;
   margin-top: 70px;
   margin-bottom: 0px;
@@ -105,9 +109,10 @@ input[type='checkbox']:checked:after {
 
 /* SELECTOR DESCENDENTE */
 .cafes h2 {
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
 }
+
 /* El background puede ser un color o imagen */
 
 .portada {
@@ -143,7 +148,7 @@ input[type='checkbox']:checked:after {
   display: inline-block;
   font-family: 'Pacifico', cursive;
   font-size: 50px;
-  margin-left:0;
+  margin-left: 0;
   margin-top: -12px
 }
 
@@ -155,22 +160,24 @@ input[type='checkbox']:checked:after {
   background: #C29B61;
   padding: 50px 10px;
 }
+
 .cafe {
   padding: 10px;
   margin: 10px 10px 40px 10px;
   /* border: 1px solid #412B19; */
- /* overflow: hidden;  para que no desborden nuestras imagenes*/
+  /* overflow: hidden;  para que no desborden nuestras imagenes*/
   border-radius: 8px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
 }
 
 .cafe ol {
-  padding:0;
+  padding: 0;
 }
 
 .cafe.granoscafe {
   height: 190px;
 }
+
 .right {
   float: right;
   position: relative;
@@ -200,12 +207,13 @@ input[type='checkbox']:checked:after {
   width: 300px;
   flex-wrap: wrap;
 }
+
 .contacto img {
   display: block;
 }
 
 .contacto strong {
-  display:block;
+  display: block;
 }
 
 .contacto a {
@@ -231,10 +239,12 @@ input[type='checkbox']:checked:after {
 
   /* padding: 50px 10px;  */
 }
+
 /* Esto es un comentario*/
 /* vamos darle estilos a las clases col1 y col2 */
 
-.col1, .col2 {
+.col1,
+.col2 {
   display: flex;
   flex-direction: column;
 }
@@ -247,15 +257,17 @@ input[type='checkbox']:checked:after {
   align-items: flex-start;
 }
 
-.col2 .button{
-  margin-top:15px;
+.col2 .button {
+  margin-top: 15px;
 }
 
 .intereses label {
-   font-size: 12px;
+  font-size: 12px;
 }
 
-.formulario label, .generos, .intereses {
+.formulario label,
+.generos,
+.intereses {
   margin-bottom: 10px;
 }
 
@@ -267,7 +279,8 @@ input[type='checkbox']:checked:after {
 /* Tablas */
 
 table {
-  width: 100%; /* toma el 100% de tu padre contenedor que tiene los 800px */
+  width: 100%;
+  /* toma el 100% de tu padre contenedor que tiene los 800px */
   margin-bottom: 60px;
 }
 
@@ -281,24 +294,29 @@ td {
   padding: 20px;
 }
 
-table, td, th {
+table,
+td,
+th {
   font-size: 20px;
   border: 0;
   /* border: 1px solid #C29B61;
   border-collapse: collapse; */
 }
+
 i {
   font-size: 12px;
 }
+
 .precio {
   font-size: 12px;
   padding: 15px 7px;
   width: 35px;
   color: white;
   text-align: center;
-  background: #9c540c ;
+  background: #9c540c;
   border-radius: 50%;
 }
+
 .titulo-precio {
   display: flex;
   justify-content: space-around;
@@ -312,7 +330,5 @@ i {
 
 .tabla {
   margin: 50px 0;
-  
+
 }
-
-
